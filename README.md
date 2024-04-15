@@ -7,6 +7,7 @@
     NumPy
     Pandas
     SciPy
+    CatBoost
 
 
 ## **2. Usage
