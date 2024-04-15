@@ -14,7 +14,7 @@ args = parser.parse_args()
 data = pd.read_csv(args.input)
 
 # Extract feature
-X_test = data.iloc[:, 1:]  # 特征
+X_test = data.iloc[:, 1:]
 
 # Loading model
 model = CatBoostClassifier()
