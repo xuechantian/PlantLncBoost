@@ -2,11 +2,11 @@
 
 ## **1. Dependencies
     Python (>=3.7.3)
-   Biopython
-   Igraph
-   NumPy
-   Pandas
-   SciPy
+    Biopython
+    Igraph
+    NumPy
+    Pandas
+    SciPy
 
 
 ## **2. Usage
