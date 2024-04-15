@@ -15,6 +15,6 @@
 
     python PlantLncBoost/Script/Feature_extraction.py -i test.fasta -o Feature.csv
 
-### **2.2 Model prediction
+### **2.2 LncRNA prediction
 
     python PlantLncBoost/Script/PlantLncBoost_prediction.py -i Feature.csv -m ./PlantLncBoost/PlantLncBoost_model.cb -t 0.5 -o prediction.csv
