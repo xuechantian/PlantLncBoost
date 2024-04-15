@@ -1,5 +1,14 @@
 # PlantLncBoost
 
+## **1. Dependencies
+Python (>=3.7.3)
+Biopython
+Igraph
+NumPy
+Pandas
+SciPy
+
+
 ## **2. Usage
 
 ### **2.1 Feature extraction
