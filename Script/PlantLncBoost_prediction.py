@@ -4,10 +4,10 @@ from catboost import CatBoostClassifier
 
 # Create a command line argument parser
 parser = argparse.ArgumentParser()
-parser.add_argument('-i', '--input', required=True, help='输入文件路径')
-parser.add_argument('-m', '--model', required=True, help='模型文件路径')
-parser.add_argument('-t', '--threshold', type=float, required=True, help='阈值')
-parser.add_argument('-o', '--output', required=True, help='输出文件路径')
+parser.add_argument('-i', '--input', required=True, help='Input file path')
+parser.add_argument('-m', '--model', required=True, help='Model path')
+parser.add_argument('-t', '--threshold', type=float, required=True, help='Threshold value')
+parser.add_argument('-o', '--output', required=True, help='Output file path')
 args = parser.parse_args()
 
 # Read data
