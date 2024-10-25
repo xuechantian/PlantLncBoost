@@ -18,4 +18,4 @@
 ### **2.2 LncRNA prediction
 In the second column (Predicted_label) of the result file, 1 represents lncRNA and 0 represents mRNA
 
-    python PlantLncBoost/Script/PlantLncBoost_prediction.py -i Feature.csv -m ./PlantLncBoost/PlantLncBoost_model.cb -t 0.5 -o prediction.csv
+    python PlantLncBoost/Script/PlantLncBoost_prediction.py -i Feature.csv -m ./PlantLncBoost/PlantLncBoost_model.cb -t 0.5 -o PlantLncBoost_prediction.csv
