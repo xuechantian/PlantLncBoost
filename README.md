@@ -1,3 +1,5 @@
+![PlantLncBoost](https://github.com/xuechantian/PlantLncBoost/blob/master/PlantLncBoost.workflow.png) 
+
 # PlantLncBoost
 
 ## **1. Dependencies
