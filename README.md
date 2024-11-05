@@ -2,6 +2,15 @@
 
 # PlantLncBoost
 
+
+
+### **PlantLncBoost is a powerful tool for accurately identifying long non-coding RNAs (lncRNAs) in plants, overcoming the challenge of poor sequence conservation.**
+
+
+#### **Email:** xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
+
+
+
 ## **1. Dependencies
     Python (>=3.7.3)
     Biopython
