@@ -4,7 +4,10 @@
 
 
 
-### **PlantLncBoost is a powerful tool for accurately identifying long non-coding RNAs (lncRNAs) in plants, overcoming the challenge of poor sequence conservation.**
+
+### **PlantLncBoost is a novel computational tool designed for the prediction of plant long non-coding RNAs (lncRNAs). It addresses the challenge of poor sequence conservation across species by employing advanced model selection, hyperparameter optimization, and feature selection. Key features such as ORF-Coverage, Complex_Fourier_average, and Atomic_Fourier_amplitude enhance its ability to accurately distinguish between coding and non-coding RNAs. PlantLncBoost exhibits superior performance compared to existing tools, enabling reliable detection of lncRNAs across a diverse range of plant species.**
+
+
 
 
 #### **Email:** xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
