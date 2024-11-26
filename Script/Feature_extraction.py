@@ -3,9 +3,9 @@ import pandas as pd
 import argparse
 
 # Define the script path
-fourier_average_path = "/home/xctian/bin/script/PlantLncBoost/Fourier_average.py"
-fourier_amplitude_path = "/home/xctian/bin/script/PlantLncBoost/Fourier_amplitude.py"
-orf_coverage_path = "/home/xctian/bin/script/PlantLncBoost/ORF_coverage.py"
+fourier_average_path = "/PlantLncBoost/Fourier_average.py"
+fourier_amplitude_path = "/PlantLncBoost/Fourier_amplitude.py"
+orf_coverage_path = "/PlantLncBoost/ORF_coverage.py"
 
 # Parsing Command Line Parameters
 parser = argparse.ArgumentParser()
