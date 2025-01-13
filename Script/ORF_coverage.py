@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from cpmodule import orf
+from ORF import orf
 from optparse import OptionParser
 from Bio import SeqIO
 
