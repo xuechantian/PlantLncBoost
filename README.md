@@ -27,7 +27,7 @@
 
 ### **2.1 Feature extraction
 
-    python ./PlantLncBoost/Script/Feature_extraction.py -i test.fasta -o PlantLncBoost_feature.csv
+    python ./PlantLncBoost/Script/Feature_extraction.py -i PlantLncBoost/data/test.fasta -o PlantLncBoost_feature.csv
 
 ### **2.2 LncRNA prediction
 In the second column (Predicted_label) of the result file, 1 represents lncRNA and 0 represents mRNA
