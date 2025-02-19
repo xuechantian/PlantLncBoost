@@ -2,9 +2,13 @@
 # -*- coding: utf-8 -*-
 
 import sys
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(script_dir, ".."))
 from ORF import orf
 from optparse import OptionParser
 from Bio import SeqIO
+
 
 def extract_feature_from_seq(seq, stt, stp):
     stt_coden = stt.strip().split(',')
