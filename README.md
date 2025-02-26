@@ -56,32 +56,32 @@ pip install .
 
 ## Usage
 
-### **Feature extraction
+### Feature extraction
 
     python ./PlantLncBoost/Script/Feature_extraction.py -i ./PlantLncBoost/data/test.fasta -o PlantLncBoost_feature.csv
 
-### **LncRNA prediction
+### LncRNA prediction
+
 In the second column (Predicted_label) of the result file, 1 represents lncRNA and 0 represents mRNA
 
     python ./PlantLncBoost/Script/PlantLncBoost_prediction.py -i PlantLncBoost_feature.csv -m ./PlantLncBoost/Model/PlantLncBoost_model.cb -t 0.5 -o PlantLncBoost_prediction.csv
-```
 
 
-## **Troubleshooting
+## Troubleshooting
 
-### **Error Messages
+### Error Messages
 
 - `Error: Invalid sequence format` - Check that your FASTA file is properly formatted
 - `Error: Model file not found` - Verify the path to the model file. Ensure you have the correct model file path and version
 - `Warning: N ambiguous nucleotides detected` - Sequences with N's will be processed but may have lower accuracy
 
 
-### **Citing PlantLncBoost
+### Citing PlantLncBoost
     Tian X, et al. (2025). PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification. 
 
 
-### **Contact
+### Contact
 
-* **Email:** xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
+    Email:** xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
 
 
