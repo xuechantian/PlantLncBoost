@@ -2,7 +2,6 @@
 
 # PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification
 
-![PlantLncBoost](https://github.com/xuechantian/PlantLncBoost/blob/master/PlantLncBoost.workflow.png) 
 
 ## Introduction
 
@@ -69,29 +68,23 @@ In the second column (Predicted_label) of the result file, 1 represents lncRNA a
 
 
 
-## Troubleshooting
-
-### Common Issues
-
-1. **Memory Errors**: When processing very large files, try increasing batch size or using the `--low_memory` flag
-2. **Invalid Sequences**: The tool will skip invalid sequences but report them in the log
-3. **Model Loading Errors**: Ensure you have the correct model file path and version
+### **Troubleshooting
 
 ### Error Messages
 
 - `Error: Invalid sequence format` - Check that your FASTA file is properly formatted
-- `Error: Model file not found` - Verify the path to the model file
+- `Error: Model file not found` - Verify the path to the model file. Ensure you have the correct model file path and version
 - `Warning: N ambiguous nucleotides detected` - Sequences with N's will be processed but may have lower accuracy
 
 
-## Citing PlantLncBoost
+### **Citing PlantLncBoost
 
 If you use PlantLncBoost in your research, please cite:
 ```
-Tian X, et al. (2025). PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification. 
+    Tian X, et al. (2025). PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification. 
 ```
 
-## Contact
+### **Contact
 
 * **Email:** xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
 
