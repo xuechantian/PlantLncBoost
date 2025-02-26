@@ -79,6 +79,6 @@ In the second column (Predicted_label) of the result file, 1 represents lncRNA a
 
 ### Contact
 
-    Email:** xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
+    Email: xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
 
 
