@@ -67,10 +67,9 @@ In the second column (Predicted_label) of the result file, 1 represents lncRNA a
 ```
 
 
+## **Troubleshooting
 
-### **Troubleshooting
-
-### Error Messages
+### **Error Messages
 
 - `Error: Invalid sequence format` - Check that your FASTA file is properly formatted
 - `Error: Model file not found` - Verify the path to the model file. Ensure you have the correct model file path and version
@@ -78,11 +77,8 @@ In the second column (Predicted_label) of the result file, 1 represents lncRNA a
 
 
 ### **Citing PlantLncBoost
-
-If you use PlantLncBoost in your research, please cite:
-```
     Tian X, et al. (2025). PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification. 
-```
+
 
 ### **Contact
 
