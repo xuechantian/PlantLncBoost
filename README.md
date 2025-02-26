@@ -30,11 +30,11 @@ This tool is designed for computational biologists, plant genomics researchers, 
 
 PlantLncBoost requires the following Python packages:
 ```
-numpy>=1.18.0
-pandas>=1.0.0
-scikit-learn>=0.22.0
-catboost>=0.24.0
-biopython>=1.76
+numpy
+pandas
+scikit-learn
+catboost
+biopython
 ```
 
 ### Install from GitHub
@@ -47,9 +47,6 @@ git clone https://github.com/xuechantian/PlantLncBoost.git
 cd PlantLncBoost
 
 # Install the dependencies
-pip install -r requirements.txt
-
-# Install the need packages
 pip install .
 ```
 
