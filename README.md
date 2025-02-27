@@ -52,6 +52,7 @@ pip install .
 ## Usage
 ### Set Environment Variable
 Set the installation path of PlantLncBoost in your environment:
+
     export PLANTLNCBOOST="/path/to/PlantLncBoost/"
 
 ### Feature extraction
