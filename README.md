@@ -3,6 +3,11 @@
 # PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification
 
 
+**Contact Information:**  
+- Email: xuechan.tian@bjfu.edu.cn  
+- Email: jianfeng.mao@umu.se
+
+
 ## Table of Contents
 - [1. Introduction](#1-introduction)
 - [2. Features](#2-features)
@@ -16,7 +21,6 @@
   - [4.3 LncRNA prediction](#43-lncrna-prediction)
 - [5. Error Messages](#5-error-messages)
 - [6. Citing PlantLncBoost](#6-citing-plantlncboost)
-- [7. Contact](#7-contact)
 
   
 ## 1. Introduction
@@ -91,10 +95,5 @@ In the second column (Predicted_label) of the result file, 1 represents lncRNA a
 
 ## 6. Citing PlantLncBoost
     Tian X, et al. (2025). , et al. (2025). PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification. 
-
-
-## 7. Contact
-
-    Email: xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
 
 
