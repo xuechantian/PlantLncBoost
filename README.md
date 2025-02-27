@@ -92,6 +92,6 @@ In the second column (Predicted_label) of the result file, 1 represents lncRNA a
 
 
 ## 6. Citing PlantLncBoost
-    Tian X, et al., et al. (2025). PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification. (under review)
+    Tian X, et al., et al. (2025). PlantLncBoost: A machine learning based model for plant long non-coding RNA identification. (under review)
 
 
