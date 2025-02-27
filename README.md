@@ -3,6 +3,22 @@
 # PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification
 
 
+## Table of Contents
+- [1. Introduction](#introduction)
+- [2. Features](#features)
+- [3. Installation](#installation)
+  - [3.1. Prerequisites](#1-prerequisites)
+  - [3.2. Dependencies](#2-dependencies)
+  - [3.3. Install from GitHub](#3-install-from-github)
+- [4. Usage](#usage)
+  - [4.1. Set Environment Variable](#1-set-environment-variable)
+  - [4.2. Feature extraction](#2-feature-extraction)
+  - [4.3. LncRNA prediction](#3-lncrna-prediction)
+- [5. Error Messages](#error-messages)
+- [6. Citing PlantLncBoost](#citing-plantlncboost)
+- [7. Contact](#contact)
+
+  
 ## 1. Introduction
 
 PlantLncBoost is a machine learning-based model for identifying long non-coding RNAs (lncRNAs) in plants. Built on the powerful gradient boosting framework CatBoost, PlantLncBoost offers high accuracy and performance in distinguishing plant lncRNAs from protein-coding RNAs. Unlike many existing tools that were primarily developed for animal lncRNAs, PlantLncBoost is specifically trained and optimized for plant genomes, taking into account their unique characteristics and sequence features.
