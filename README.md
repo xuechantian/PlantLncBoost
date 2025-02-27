@@ -17,14 +17,12 @@ This tool is designed for computational biologists, plant genomics researchers, 
   - Open Reading Frame (ORF) Coverage
   - Complex_Fourier_average
   - Atomic_Fourier_amplitude
-- **Integration Ready**: Can be incorporated into larger RNA-seq analysis pipelines
 
 ## Installation
 
 ### Prerequisites
 
 - Python 3.7
-- pip package manager
 
 ### Dependencies
 
@@ -52,16 +50,19 @@ pip install .
 
 
 ## Usage
+### Set Environment Variable
+Set the installation path of PlantLncBoost in your environment:
+    export PLANTLNCBOOST="/path/to/PlantLncBoost/"
 
 ### Feature extraction
+    python "${PLANTLNCBOOST}/Script/Feature_extraction.py" -i "${PLANTLNCBOOST}/data/test.fasta" -o PlantLncBoost_feature.csv
 
-    python ./PlantLncBoost/Script/Feature_extraction.py -i ./PlantLncBoost/data/test.fasta -o PlantLncBoost_feature.csv
 
 ### LncRNA prediction
 
 In the second column (Predicted_label) of the result file, 1 represents lncRNA and 0 represents mRNA
 
-    python ./PlantLncBoost/Script/PlantLncBoost_prediction.py -i PlantLncBoost_feature.csv -m ./PlantLncBoost/Model/PlantLncBoost_model.cb -t 0.5 -o PlantLncBoost_prediction.csv
+    python "${PLANTLNCBOOST}/Script/PlantLncBoost_prediction.py" -i PlantLncBoost_feature.csv -m "${PLANTLNCBOOST}/Model/PlantLncBoost_model.cb" -t 0.5 -o PlantLncBoost_prediction.csv
 
 
 ## Troubleshooting
