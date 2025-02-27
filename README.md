@@ -4,19 +4,19 @@
 
 
 ## Table of Contents
-- [1. Introduction](#introduction)
-- [2. Features](#features)
-- [3. Installation](#installation)
-  - [3.1. Prerequisites](#1-prerequisites)
-  - [3.2. Dependencies](#2-dependencies)
-  - [3.3. Install from GitHub](#3-install-from-github)
-- [4. Usage](#usage)
-  - [4.1. Set Environment Variable](#1-set-environment-variable)
-  - [4.2. Feature extraction](#2-feature-extraction)
-  - [4.3. LncRNA prediction](#3-lncrna-prediction)
-- [5. Error Messages](#error-messages)
-- [6. Citing PlantLncBoost](#citing-plantlncboost)
-- [7. Contact](#contact)
+- [1. Introduction](#1-introduction)
+- [2. Features](#2-features)
+- [3. Installation](#3-installation)
+  - [3.1. Prerequisites](#3.1-prerequisites)
+  - [3.2. Dependencies](#3.2-dependencies)
+  - [3.3. Install from GitHub](#3.3-install-from-github)
+- [4. Usage](#4-usage)
+  - [4.1. Set Environment Variable](#4.1-set-environment-variable)
+  - [4.2. Feature extraction](#4.2-feature-extraction)
+  - [4.3. LncRNA prediction](#4.3-lncrna-prediction)
+- [5. Error Messages](#5-error-messages)
+- [6. Citing PlantLncBoost](#6-citing-plantlncboost)
+- [7. Contact](#7-contact)
 
   
 ## 1. Introduction
@@ -36,11 +36,11 @@ This tool is designed for computational biologists, plant genomics researchers, 
 
 ## 3. Installation
 
-### 3.1. Prerequisites
+### 3.1 Prerequisites
 
 - Python 3.7
 
-### 3.2. Dependencies
+### 3.2 Dependencies
 
 PlantLncBoost requires the following Python packages:
 ```
@@ -51,7 +51,7 @@ catboost
 biopython
 ```
 
-### 3.3. Install from GitHub
+### 3.3 Install from GitHub
 
 ```bash
 # Clone the repository
@@ -66,16 +66,16 @@ pip install .
 
 
 ## 4. Usage
-### 4.1. Set Environment Variable
+### 4.1 Set Environment Variable
 Set the installation path of PlantLncBoost in your environment:
 
     export PLANTLNCBOOST="/path/to/PlantLncBoost/"
 
-### 4.2. Feature extraction
+### 4.2 Feature extraction
     python "${PLANTLNCBOOST}/Script/Feature_extraction.py" -i "${PLANTLNCBOOST}/data/test.fasta" -o PlantLncBoost_feature.csv
 
 
-### 4.3. LncRNA prediction
+### 4.3 LncRNA prediction
 
 In the second column (Predicted_label) of the result file, 1 represents lncRNA and 0 represents mRNA
 
