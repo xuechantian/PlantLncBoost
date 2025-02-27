@@ -14,7 +14,7 @@
 - [3. Installation](#3-installation)
   - [3.1 Prerequisites](#31-prerequisites)
   - [3.2 Dependencies](#32-dependencies)
-  - [3.3 Install from GitHub](#33-install-from-github)
+  - [3.3 Install PlantLncBoost](#33-install-from-github)
 - [4. Usage](#4-usage)
   - [4.1 Set Environment Variable](#41-set-environment-variable)
   - [4.2 Feature extraction](#42-feature-extraction)
@@ -44,29 +44,27 @@ This tool is designed for computational biologists, plant genomics researchers, 
 
 - Python 3.7
 
-### 3.2 Dependencies
+### 3.2 Install Dependencies
 
-PlantLncBoost requires the following Python packages:
-```
-numpy
-pandas
-scikit-learn
-catboost
-biopython
-```
+#### PlantLncBoost requires the following Python packages:
+    Python (>=3.7)
+    Biopython
+    NumPy
+    Pandas
+    SciPy
+    CatBoost
 
-### 3.3 Install from GitHub
+#### Create and activate a conda environment
+    conda create -n lncrna_env python=3.7
+    conda activate lncrna_env
+#### Install core dependencies
+    conda install -c conda-forge biopython numpy pandas scipy catboost
+    
+### 3.3 Install PlantLncBoost
 
-```bash
-# Clone the repository
-git clone https://github.com/xuechantian/PlantLncBoost.git
+#### Clone the repository
+    git clone https://github.com/xuechantian/PlantLncBoost.git
 
-# Navigate to the directory
-cd PlantLncBoost
-
-# Install the dependencies
-pip install .
-```
 
 
 ## 4. Usage
