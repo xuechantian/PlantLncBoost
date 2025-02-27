@@ -3,13 +3,13 @@
 # PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification
 
 
-## Introduction
+## 1. Introduction
 
 PlantLncBoost is a machine learning-based model for identifying long non-coding RNAs (lncRNAs) in plants. Built on the powerful gradient boosting framework CatBoost, PlantLncBoost offers high accuracy and performance in distinguishing plant lncRNAs from protein-coding RNAs. Unlike many existing tools that were primarily developed for animal lncRNAs, PlantLncBoost is specifically trained and optimized for plant genomes, taking into account their unique characteristics and sequence features.
 
 This tool is designed for computational biologists, plant genomics researchers, and bioinformaticians who need accurate lncRNA identification for plant genome annotation, functional genomics studies, or comparative transcriptomics.
 
-## Features
+## 2. Features
 
 - **Plant-Specific Optimization**: Trained specifically on plant transcriptomes to account for plant-specific lncRNA characteristics
 - **High-Performance Machine Learning**: Leverages CatBoost's gradient boosting framework for superior accuracy and speed
@@ -18,13 +18,13 @@ This tool is designed for computational biologists, plant genomics researchers, 
   - Complex_Fourier_average
   - Atomic_Fourier_amplitude
 
-## Installation
+## 3. Installation
 
-### 1. Prerequisites
+### 3.1. Prerequisites
 
 - Python 3.7
 
-### 2. Dependencies
+### 3.2. Dependencies
 
 PlantLncBoost requires the following Python packages:
 ```
@@ -35,7 +35,7 @@ catboost
 biopython
 ```
 
-### 3. Install from GitHub
+### 3.3. Install from GitHub
 
 ```bash
 # Clone the repository
@@ -49,35 +49,35 @@ pip install .
 ```
 
 
-## Usage
-### 1. Set Environment Variable
+## 4. Usage
+### 4.1. Set Environment Variable
 Set the installation path of PlantLncBoost in your environment:
 
     export PLANTLNCBOOST="/path/to/PlantLncBoost/"
 
-### 2. Feature extraction
+### 4.2. Feature extraction
     python "${PLANTLNCBOOST}/Script/Feature_extraction.py" -i "${PLANTLNCBOOST}/data/test.fasta" -o PlantLncBoost_feature.csv
 
 
-### 3. LncRNA prediction
+### 4.3. LncRNA prediction
 
 In the second column (Predicted_label) of the result file, 1 represents lncRNA and 0 represents mRNA
 
     python "${PLANTLNCBOOST}/Script/PlantLncBoost_prediction.py" -i PlantLncBoost_feature.csv -m "${PLANTLNCBOOST}/Model/PlantLncBoost_model.cb" -t 0.5 -o PlantLncBoost_prediction.csv
 
 
-## Error Messages
+## 5. Error Messages
 
 - `Error: Invalid sequence format` - Check that your FASTA file is properly formatted
 - `Error: Model file not found` - Verify the path to the model file. Ensure you have the correct model file path and version
 - `Warning: N ambiguous nucleotides detected` - Sequences with N's will be processed but may have lower accuracy
 
 
-## Citing PlantLncBoost
+## 6. Citing PlantLncBoost
     Tian X, et al. (2025). , et al. (2025). PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification. 
 
 
-## Contact
+## 7. Contact
 
     Email: xuechan.tian@bjfu.edu.cn;  jianfeng.mao@umu.se
 
