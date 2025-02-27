@@ -1,4 +1,4 @@
-                   ![PlantLncBoost](https://github.com/xuechantian/PlantLncBoost/blob/master/PlantLncBoost.workflow.png) 
+![PlantLncBoost](https://github.com/xuechantian/PlantLncBoost/blob/master/PlantLncBoost.workflow.png) 
 
 # PlantLncBoost: A Machine Learning Based Model for Plant Long Non-coding RNA Identification
 
