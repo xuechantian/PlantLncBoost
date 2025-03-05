@@ -13,7 +13,7 @@
 - [2. Features](#2-features)
 - [3. Installation](#3-installation)
   - [3.1 Prerequisites](#31-prerequisites)
-  - [3.2 Dependencies](#32-dependencies)
+  - [3.2 Install Dependencies](#32-dependencies)
   - [3.3 Install PlantLncBoost](#33-Install-PlantLncBoost)
 - [4. Usage](#4-usage)
   - [4.1 Set Environment Variable](#41-set-environment-variable)
